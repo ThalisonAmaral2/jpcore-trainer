@@ -1,8 +1,37 @@
-# React + Vite
+# JP-Core Trainer Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Practice your japanese vocabulary knowledge.
 
-Currently, two official plugins are available:
+Solve as many words you can, until you miss 3. When that happens, you a prompted to review those.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Choose the correct translation
+![word card](https://raw.githubusercontent.com/ThalisonAmaral2/jpcore-trainer/refs/heads/development/media/jpcore-word-card.png)
+
+
+### If you miss 3 words, it's Game Over
+Review the words you have missed
+
+![Game Over](https://raw.githubusercontent.com/ThalisonAmaral2/jpcore-trainer/refs/heads/development/media/jpcore-gameover.png)
+
+
+## Download Guide
+
+#### Download and Run the JP-Core API
+```sh
+git clone https://github.com/ThalisonAmaral2/jpcore-api.git
+mv ./jpcore-api
+npm run dev # Runs on port 3000
+```
+
+
+
+
+
+#### Download the Client
+```sh
+git clone https://github.com/ThalisonAmaral2/jpcore-trainer.git
+mv ./jpcore-trainer
+npm run dev
+```
+
+Open it on a broswer and enjoy learning.
