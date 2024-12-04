@@ -19,7 +19,7 @@ Review the words you have missed
 #### Download and Run the JP-Core API
 ```sh
 git clone https://github.com/ThalisonAmaral2/jpcore-api.git
-mv ./jpcore-api
+cd ./jpcore-api
 npm run dev # Runs on port 3000
 ```
 
@@ -30,7 +30,7 @@ npm run dev # Runs on port 3000
 #### Download the Client
 ```sh
 git clone https://github.com/ThalisonAmaral2/jpcore-trainer.git
-mv ./jpcore-trainer
+cd ./jpcore-trainer
 npm run dev
 ```
 
